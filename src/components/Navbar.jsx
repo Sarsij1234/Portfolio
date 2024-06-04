@@ -3,6 +3,7 @@ import pic from "../../public/photo.avif"
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoClose } from "react-icons/io5";
 import {Link} from "react-scroll"
+import { ReactTyped } from "react-typed";
 function Navbar() {
     const[menu,setMenu]=useState(false)
     const navItems=[
@@ -33,8 +34,14 @@ function Navbar() {
     <div className='flex justify-between  h-16 items-center'>
         <div className=" flex space-x-2">
             <img src={pic} className="h-12 w-12 rounded-full"alt=""/>
-            <h1 className="font-semibold text-xl cursor-pointer">Sarsij <span className="text-green-600 text-2xl">Upadhyay</span>
-            <p className="text-sm">Web Developer</p>
+            <h1 className="font-semibold text-xl cursor-pointer">Sarsij <span className="text-black text-2xl">Upadhyay</span>
+          <p><ReactTyped className=" text-red-600 font-bold  "
+         
+          strings={["Web Developer"]}
+          typeSpeed={40}
+          backSpeed={50}
+          loop={true}
+        /></p>  
             </h1>
         </div>
         {/* Dekstop Navbar */}

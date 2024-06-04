@@ -12,7 +12,7 @@ function Experience() {
   return (
     <div name="Experience"
      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 text-left">
-      <h1 className="font-bold text-3xl text-green-600 underline mb-8">Experience</h1>
+      <h1 className="font-bold text-3xl text-black underline mb-8">Experience</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
         <div className="flex flex-col items-center space-y-2">
           <RiJavaLine className="text-6xl" />
@@ -47,6 +47,8 @@ function Experience() {
           <span className="text-2xl">ReactJs</span>
         </div>
       </div>
+      <br /><br /> <br /><br />
+      <hr/>
     </div>
   );
 }

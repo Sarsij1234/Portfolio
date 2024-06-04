@@ -8,7 +8,7 @@ import { FaDatabase } from "react-icons/fa";
 import { AiFillAndroid } from "react-icons/ai";
 import { RiJavascriptFill } from "react-icons/ri";
 import { ReactTyped } from "react-typed";
-import pic from "../../public/photo.avif"
+import pic from "../../public/IMG_20240603_231600.jpg"
 
 function Home() {
   return (
@@ -17,7 +17,7 @@ function Home() {
     className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 ">
         <div className="flex flex-col md:flex-row">
              <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
-                <div className="text-left font-bold text-2xl underline">Welcome In My Feed</div>
+                <div className="text-left font-bold text-2xl underline text-black">Welcome In My Feed</div>
                 <div className="flex space-x-1 text-2xl md:text-4xl ">
                  <h6 className="text-2xl md:text-3xl">Hello,I'm a </h6>
                  {/* <span className=" bg-red-600 font-bold">Developer</span> */}
@@ -30,7 +30,7 @@ function Home() {
         />
                 </div>
             <br/>
-             <p className="text-sm md:text-md text-justify"> Hello! I'm a passionate frontend developer with 1 years of experience crafting visually stunning, user-friendly,
+             <p className=" md:text-md text-justify"> Hello! I'm a passionate frontend developer with 1 years of experience crafting visually stunning, user-friendly,
                  and highly responsive websites and applications. I specialize in HTML, CSS, and JavaScript, leveraging modern frameworks
                   like React and Vue to bring dynamic and engaging interfaces to life. With a strong focus on responsive design, performance 
                   optimization, and intuitive UI/UX, I am dedicated to turning innovative ideas into seamless digital experiences. Let's
@@ -83,9 +83,12 @@ function Home() {
              </div>
             
         </div>
-     
+        <br /><br />
+        <br /><br />
+        <br /><br />
+     <hr/>
     </div>
-    <hr/>
+    
     </>
   )
 }

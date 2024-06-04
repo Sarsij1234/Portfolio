@@ -76,11 +76,11 @@ function Form() {
   };
 
   return (
-    <div name="Contact" style={styles.app}>
-      <div style={styles.formContainer}>
+  
+      <div  style={styles.formContainer}>
         <h1 style={{ color: 'black' }}>Contact Me</h1>
         <form onSubmit={handleSubmit} style={styles.form}>
-          <div style={styles.formGroup}>
+          <div className="text-black" style={styles.formGroup}>
             <label style={styles.label}>Name:</label>
             <input
               type="text"
@@ -90,7 +90,7 @@ function Form() {
               style={styles.input}
             />
           </div>
-          <div style={styles.formGroup}>
+          <div className="text-black" style={styles.formGroup}>
             <label style={styles.label}>Email:</label>
             <input
               type="email"
@@ -100,7 +100,7 @@ function Form() {
               style={styles.input}
             />
           </div>
-          <div style={styles.formGroup}>
+          <div className="text-black"style={styles.formGroup}>
             <label style={styles.label}>Message:</label>
             <textarea
               value={message}
@@ -118,8 +118,9 @@ function Form() {
             Send via WhatsApp
           </button>
         </form>
+       
       </div>
-    </div>
+   
   );
 }
 

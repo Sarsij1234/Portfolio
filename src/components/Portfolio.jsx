@@ -19,7 +19,7 @@ function Portfolio() {
     <div name="Portfolio"
      className="max-w-screen-2xl container mx-auto px=4 md:px-20 my-20 text-left">
         <div>
-              <h1 className="text-3xl font-bold text-green-600">Portfolio</h1>
+              <h1 className="text-3xl font-bold text-black underline">Portfolio</h1>
               <span className="underline">Featured Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-4 md:gap-5 my-4 ">
         {
@@ -42,6 +42,7 @@ function Portfolio() {
        
       
     </div>
+    <br /><br /><br /><br/>
     <hr/>
         </div>
         
