@@ -63,7 +63,7 @@ function Navbar() {
                     ))
                 }
             </ul>
-          <div onClick={()=>setMenu(!menu)}className="md:hidden">{menu? <IoClose size={24}/>:< AiOutlineMenu size={24}/>}</div> 
+          <div onClick={()=>setMenu(!menu)}className="md:hidden text-black">{menu? <IoClose size={24}/>:< AiOutlineMenu size={24}/>}</div> 
         </div>
     </div>
     {/* Mobile Navbar */}
