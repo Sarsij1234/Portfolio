@@ -30,7 +30,7 @@ function Navbar() {
 ]
   return (
    <>
-   <div className="max-w-screen-2xl container mx-auto px=4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 bg-slate-500">
+   <div className="max-w-screen-2xl container mx-auto px=4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 bg-slate-500 position-sticky">
     <div className='flex justify-between  h-16 items-center'>
         <div className=" flex space-x-2">
             <img src={pic} className="h-12 w-12 rounded-full"alt=""/>
@@ -73,7 +73,7 @@ function Navbar() {
         <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-4 text-xl">
         {
                     navItems.map(({id,text})=>(
-                        <li className="hover:scale-105 duration-200 cursor-pointer font-semibold text-xl" key={id}>
+                        <li className="hover:scale-105 duration-200 cursor-pointer font-semibold text-xl text-black" key={id}>
                              <Link to={text}
                              onClick={()=>setMenu(!menu)}
                             smooth={true}

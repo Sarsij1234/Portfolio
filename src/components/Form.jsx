@@ -77,7 +77,7 @@ function Form() {
 
   return (
   
-      <div  style={styles.formContainer}>
+      <div name="Contact" style={styles.formContainer}>
         <h1 style={{ color: 'black' }}>Contact Me</h1>
         <form onSubmit={handleSubmit} style={styles.form}>
           <div className="text-black" style={styles.formGroup}>

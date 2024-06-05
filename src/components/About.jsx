@@ -3,10 +3,10 @@ import React from 'react'
 function About() {
   return (
     <div name="About" 
-    className="max-w-screen-2xl container mx-auto px=4 md:px-20 my-20 text-left">
+    className="max-w-screen-2xl container mx-auto px=4 md:px-20 my-20 ">
      <h1 className='  font-bold text-3xl text-black underline'>About</h1>
      <br/>
-     <p className="text-justify">Passionate and skilled Frontend Developer with 1 years of experience in designing and implementing responsive, user-friendly web interfaces. Proficient in HTML, CSS, JavaScript, and modern frameworks like React and Angular. Adept at collaborating with cross-functional teams to deliver high-quality, scalable web solutions. Strong problem-solving skills and a keen eye for detail, committed to creating seamless and engaging user experiences.</p> 
+     <p className="md:text-md text-justify mx-3">Passionate and skilled Frontend Developer with 1 years of experience in designing and implementing responsive, user-friendly web interfaces. Proficient in HTML, CSS, JavaScript, and modern frameworks like React and Angular. Adept at collaborating with cross-functional teams to deliver high-quality, scalable web solutions. Strong problem-solving skills and a keen eye for detail, committed to creating seamless and engaging user experiences.</p> 
      <h1 className="text-black font-bold text-3xl  my-7 underline">Education</h1>   
      <ul >
        <li><h1 className="font-semibold my-0 text-black">Bachelor's of Technology:</h1>
@@ -22,7 +22,7 @@ function About() {
         <br/>
         <h1 className="text-black text-3xl font-bold underline">Work Experience</h1><h1 className="font-semibold text-black"><br/>Software Trainee-8ASE(Remote)</h1>
         
-        <p className="text-justify my-3"> As a dedicated Frontend Developer, I specialize in creating dynamic and responsive web
+        <p className="text-justify mx-3"> As a dedicated Frontend Developer, I specialize in creating dynamic and responsive web
          applications using HTML, CSS, JavaScript, and ReactJS. My passion lies in crafting intuitive and visually appealing 
          user interfaces that provide seamless experiences across devices. With a strong foundation in web development, I have
           successfully delivered numerous projects, leveraging my expertise in modern frontend technologies to build scalable and

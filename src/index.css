@@ -5,3 +5,85 @@
 body{
     font-family:'Poppins',sans-serief;
 }
+.card {
+    width: 250px;
+    height: 300px; /* Increased height to accommodate buttons */
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden; /* To prevent button overflow */
+    position: relative; /* Added for button positioning */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.description {
+    color: #000;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.link {
+    background-color: #007bff;
+}
+
+.source {
+    background-color: #28a745;
+}
+.portfolio-container {
+    padding-top: 80px; /* Adjust this value to match your navbar height */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+    /* Add other styles as needed */
+}
