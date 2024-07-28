@@ -8,8 +8,8 @@ function Portfolio() {
             id: 1,
             logo: java,
             name: "Project-1",
-            projectLink: "https://effervescent-beijinho-7f55a3.netlify.app/",
-            sourceLink: "https://github.com/Sarsij1234/textUtlis.git"
+            projectLink: "https://cute-cranachan-aa0877.netlify.app/",
+            sourceLink: "https://github.com/Sarsij1234/ContactForm.git"
         },
         {
             id: 2,
@@ -17,7 +17,28 @@ function Portfolio() {
             name: "Project-2",
             projectLink: "https://poetic-truffle-60127e.netlify.app/",
             sourceLink: "https://github.com/Sarsij1234/Portfolio.git"
-        }
+        },
+        {
+            id: 3,
+            logo: reactjs,
+            name: "Project-3",
+            projectLink: "https://gleaming-croquembouche-6dac7d.netlify.app/",
+            sourceLink: "https://github.com/Sarsij1234/Joke.git"
+        },
+        {
+            id: 4,
+            logo: reactjs,
+            name: "Project-4",
+            projectLink: "https://velvety-pegasus-b1fd96.netlify.app/",
+            sourceLink: "https://github.com/Sarsij1234/Game.git"
+        },
+        {
+            id: 5,
+            logo: reactjs,
+            name: "Project-5",
+            projectLink: "https://vermillion-mandazi-a58fcf.netlify.app/",
+            sourceLink: "https://github.com/Sarsij1234/Dictionary.git"
+        },
     ];
 
     return (
